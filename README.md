@@ -9,6 +9,7 @@
 _*Euler totient function :*_ _**ϕ(n)**_ 
 
 The explicit formula of the **Euler** totient formula is given by :
+
 $$
 \phi(n) = n\prod_{p \vert n}(1 - \frac{1}{p})
 $$

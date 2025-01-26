@@ -24,5 +24,3 @@ def prime_factors(n):
         if n % i == 0 and is_prime(i):
             res.append([i, highest_power(n, i)])
     return res
-
-print(is_prime(1))

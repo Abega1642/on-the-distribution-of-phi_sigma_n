@@ -2,6 +2,9 @@ import math
 
 def is_prime(n):
     div = 0
+    if n == 1 or n < 0:
+        return False
+
     for i in range(2, math.floor(n ** 0.5) + 1):
         if n % i == 0:
             div += 1
@@ -22,3 +25,4 @@ def prime_factors(n):
             res.append([i, highest_power(n, i)])
     return res
 
+print(is_prime(1))

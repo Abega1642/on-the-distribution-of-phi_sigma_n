@@ -40,20 +40,18 @@ In this program, we are using the second expression as we can find in  [sigma.py
 In this [src/statements](src/statements) you will find the main purpose of this program. In fact, you will find there some applications of those two arithmetical functions given just above.
 
 For instance, the first statement in [upper_bounded.py](src/statements/upper_bounded.py) is the implementation of this statement right bellow :
+
 $$
-\forall\space c, x > 0,\space \#\lbrace n \leq x: \phi(\sigma(n)) \leq cn \rbrace
+\forall\space c, x > 0,\space N = card(\lbrace n \leq x: \phi(\sigma(n)) \leq cn \rbrace)
 $$
+
 This implementation of this is :
 
 ```python
-res = 0
-    values = []
-    for n in range(1, math.floor(x) + 1):
-        if totient.phi(sigma.sigma(n)) <= c*n :
-            res +=1
-            values.append([n, totient.phi(sigma.sigma(n))])
-return res
-# or you can do return len(values) if you want
+  for n in range(1, math.floor(x) + 1):
+      if totient.phi(sigma.sigma(n)) <= c*n :
+          res +=1
+          values.append([n, totient.phi(sigma.sigma(n))])
 ```
 
 

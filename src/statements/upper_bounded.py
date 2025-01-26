@@ -11,5 +11,3 @@ def number_of_n_such_as_phi_of_sigma_of_n_leq_than_cn(c, x):
             values.append([n, totient.phi(sigma.sigma(n))])
 
     return res
-
-print(number_of_n_such_as_phi_of_sigma_of_n_leq_than_cn(5, 9))

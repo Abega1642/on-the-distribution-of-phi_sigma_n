@@ -1,18 +1,18 @@
-#  ARITHMETICS
+#  On the distribution of ϕ(σ(n))
 
-##	On the distribution of ϕ(σ(n))
-
-
-
-###	Mathematical side of the functions used in this program :
+##	Mathematical side of the functions used in this program :
 
 _*Euler totient function :*_ _**ϕ(n)**_ 
+
+*Euler's totient function* aims to determine the number of natural numbers which are prime with a given integer _*n*_.
 
 The explicit formula of the **Euler** totient formula is given by :
 
 $$
 \phi(n) = n\prod_{p \vert n}(1 - \frac{1}{p})
 $$
+
+>  NOTE : This phi function really helps with the determination of the order of a particular group in group theory (especially the group `Z/(p^k)Z`
 
 
 _*Sum of all positiv divisors of n :*_ _**σ(n)**_

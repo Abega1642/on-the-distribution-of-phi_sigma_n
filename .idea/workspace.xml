@@ -33,7 +33,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.diophantian.executor": "Run",
     "Python.euclidean.executor": "Run",
+    "Python.gcd.executor": "Run",
     "Python.prime.executor": "Run",
     "Python.primes.executor": "Run",
     "Python.totient.executor": "Run",

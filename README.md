@@ -48,10 +48,7 @@ $$
 This implementation of this is :
 
 ```python
-  for n in range(1, math.floor(x) + 1):
-      if totient.phi(sigma.sigma(n)) <= c*n :
-          res +=1
-          values.append([n, totient.phi(sigma.sigma(n))])
+  totient.phi(sigma.sigma(n)) <= c*n :
 ```
 
 

@@ -12,7 +12,11 @@ $$
 \phi(n) = n\prod_{p \vert n}(1 - \frac{1}{p})
 $$
 
->  NOTE : This phi function really helps with the determination of the order of a particular group in group theory (especially the group `Z/(p^k)Z`
+>  NOTE : This phi function really helps with the determination of the order of a particular group in group theory (especially the group
+
+$$
+  \mathbb{Z} / p^{k} \mathbb{Z}
+$$
 
 
 _*Sum of all positiv divisors of n :*_ _**σ(n)**_
